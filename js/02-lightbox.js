@@ -10,6 +10,7 @@ function createGalleryItem({ preview, original, description }) {
                     class="gallery__image"
                     src="${preview}"
                     alt="${description}"
+                    data-source="${original}"
                 />
             </a>
         </li>
